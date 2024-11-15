@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <GridLayout
+        android:id="@+id/boardGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:background="#ed74ed"
+        android:padding="10dp">
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/playerTurnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black to move"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:id="@+id/actionPhaseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Action: Drop"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/newGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
